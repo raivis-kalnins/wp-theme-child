@@ -1,0 +1,9 @@
+/node_modules
+/vendor
+.DS_Store
+/dist
+/.vscode
+mix-manifest.json
+composer.lock
+.parcel-cache
+**/*Zone.Identifier

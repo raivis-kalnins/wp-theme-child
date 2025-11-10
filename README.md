@@ -1,2 +1,3 @@
-# wp-theme-child
-WordPress child theme - custom project options
+# WP-ChildTheme
+WordPress Child Theme
+![Screenshot](screenshot.jpg)

@@ -1,0 +1,274 @@
+{
+    "key": "group_68f84a0539226",
+    "title": "Hero",
+    "fields": [
+        {
+            "key": "field_68f84b97b0871",
+            "label": "Hero Section Background",
+            "name": "hero_sec_background",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 0,
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_68f84c34b0873",
+            "label": "Hero Section Caption",
+            "name": "hero_sec_caption",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_68fb63ea38613",
+            "label": "H1 first",
+            "name": "h_first",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "H1 tag for 1'st Hero only ( SEO )",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "allow_in_bindings": 0,
+            "ui_on_text": "Y",
+            "ui_off_text": "N",
+            "ui": 1
+        },
+        {
+            "key": "field_68f84cbfb0874",
+            "label": "Hero Section Text",
+            "name": "hero_sec_txt",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_68f84ce1b0875",
+            "label": "Hero Section Button",
+            "name": "hero_sec_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "allow_in_bindings": 0
+        },
+        {
+            "key": "field_68f84d10b0876",
+            "label": "Hero Section Slider",
+            "name": "hero_sec_slider",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "If more then one Hero section",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Swiper slider if more then one Hero items",
+            "default_value": 0,
+            "allow_in_bindings": 0,
+            "ui_on_text": "Y",
+            "ui_off_text": "N",
+            "ui": 1
+        },
+        {
+            "key": "field_68f84a061834e",
+            "label": "Hero Items",
+            "name": "hero_items",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_68f84d10b0876",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 1,
+            "rows_per_page": 3,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_68f84ae518350",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_68f84bdeb0872",
+                    "label": "Hero Item Background",
+                    "name": "hero_item_background",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "allow_in_bindings": 0,
+                    "preview_size": "medium",
+                    "parent_repeater": "field_68f84a061834e"
+                },
+                {
+                    "key": "field_68f84a551834f",
+                    "label": "Hero Item Caption",
+                    "name": "hero_item_caption",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_68f84a061834e"
+                },
+                {
+                    "key": "field_68f84ae518350",
+                    "label": "Hero Item Text",
+                    "name": "hero_item_txt",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_68f84a061834e"
+                },
+                {
+                    "key": "field_68f84b1918351",
+                    "label": "Hero Item Button",
+                    "name": "hero_item_button",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "allow_in_bindings": 0,
+                    "parent_repeater": "field_68f84a061834e"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/hero"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1761903539
+}

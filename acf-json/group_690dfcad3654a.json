@@ -1,0 +1,56 @@
+{
+    "key": "group_690dfcad3654a",
+    "title": "Menu Option Block",
+    "fields": [
+        {
+            "key": "field_690dfcad101e4",
+            "label": "Menu Option",
+            "name": "menu_option",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Choose Menu ...": "Choose Menu ...",
+                "WP Header Menu": "WP Header Menu",
+                "WP Footer Menu": "WP Footer Menu"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/menuoption"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1762528410
+}

@@ -1,0 +1,54 @@
+{
+    "key": "group_6900a2ba4c023",
+    "title": "ACF Gallery",
+    "fields": [
+        {
+            "key": "field_6900a2ba26d88",
+            "label": "ACF Gallery",
+            "name": "acf_gallery",
+            "aria-label": "",
+            "type": "gallery",
+            "instructions": "Drag & drop images",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "acf-gallery",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min": 2,
+            "max": 200,
+            "min_width": 1024,
+            "min_height": "",
+            "min_size": "",
+            "max_width": 2560,
+            "max_height": 1440,
+            "max_size": 2,
+            "mime_types": "jpg,jpeg,png,webp",
+            "insert": "append",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acfgallery"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1761649778
+}

@@ -1,0 +1,547 @@
+# Copyright (C) 2022 ona
+# This file is distributed under the same license as the ona package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blockpress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Motionblocks <mudderbuster@gmail.com>\n"
+"Last-Translator: Motionblocks <mudderbuster@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://blockpresswp.com/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:343
+msgid "CSS not saved due the permission!!!"
+msgstr ""
+
+#: inc/block-patterns.php:16
+msgid "Blockpress"
+msgstr ""
+
+#: inc/block-patterns.php:21
+msgid "Blockpress Footer"
+msgstr ""
+
+#: inc/block-patterns.php:25
+msgid "Blockpress General"
+msgstr ""
+
+#: inc/block-patterns.php:29
+msgid "Blockpress Header"
+msgstr ""
+
+#: inc/block-patterns.php:33
+msgid "Blockpress Hero Headers"
+msgstr ""
+
+#: inc/block-patterns.php:37
+msgid "Blockpress Parts"
+msgstr ""
+
+#: inc/block-patterns.php:41
+msgid "Blockpress Page"
+msgstr ""
+
+#: inc/block-patterns.php:45
+msgid "Blockpress Query"
+msgstr ""
+
+#: inc/block-styles.php:25 inc/block-styles.php:205
+msgid "Fill White"
+msgstr ""
+
+#: inc/block-styles.php:33 inc/block-styles.php:197
+msgid "Outline Black"
+msgstr ""
+
+#: inc/block-styles.php:41 inc/block-styles.php:213
+msgid "Outline White"
+msgstr ""
+
+#: inc/block-styles.php:48
+msgid "System button"
+msgstr ""
+
+#: inc/block-styles.php:55
+msgid "3d Button light"
+msgstr ""
+
+#: inc/block-styles.php:62
+msgid "3d Button dark"
+msgstr ""
+
+#: inc/block-styles.php:71
+msgid "Boxshadow"
+msgstr ""
+
+#: inc/block-styles.php:78
+msgid "Light Shadow"
+msgstr ""
+
+#: inc/block-styles.php:85
+msgid "Middle Shadow"
+msgstr ""
+
+#: inc/block-styles.php:92
+msgid "Hard dark Shadow"
+msgstr ""
+
+#: inc/block-styles.php:99
+msgid "Hard primary Shadow"
+msgstr ""
+
+#: inc/block-styles.php:106
+msgid "Full-height"
+msgstr ""
+
+#: inc/block-styles.php:113 inc/block-styles.php:134
+msgid "Shadow on hover"
+msgstr ""
+
+#: inc/block-styles.php:120
+msgid "Sliding primary hover"
+msgstr ""
+
+#: inc/block-styles.php:127 inc/block-styles.php:143 inc/block-styles.php:158
+msgid "No Margin"
+msgstr ""
+
+#: inc/block-styles.php:150
+msgid "Half negative offset"
+msgstr ""
+
+#: inc/block-styles.php:166
+msgid "No underline for links"
+msgstr ""
+
+#: inc/block-styles.php:173
+msgid "Circle shape"
+msgstr ""
+
+#: inc/block-styles.php:180
+msgid "Circle shape small"
+msgstr ""
+
+#: inc/block-styles.php:189
+msgid "Fill Black"
+msgstr ""
+
+#: inc/block-styles.php:220
+msgid "Accent Button"
+msgstr ""
+
+#: inc/block-styles.php:227
+msgid "Primary Color Button"
+msgstr ""
+
+#: inc/block-styles.php:234
+msgid "Secondary Color Button"
+msgstr ""
+
+#: inc/block-styles.php:241
+msgid "Primary 3d Button"
+msgstr ""
+
+#: inc/block-styles.php:249
+msgid "Colored tags"
+msgstr ""
+
+#: inc/block-styles.php:256
+msgid "Colored Secondary tags"
+msgstr ""
+
+#: inc/block-styles.php:263
+msgid "Underline on hover"
+msgstr ""
+
+#: inc/block-styles.php:270 inc/block-styles.php:277
+msgid "Inline List"
+msgstr ""
+
+#: inc/block-styles.php:284
+msgid "Small image"
+msgstr ""
+
+#: inc/block-styles.php:291
+msgid "Unstyled view"
+msgstr ""
+
+#: inc/block-styles.php:299
+msgid "Line Separator"
+msgstr ""
+
+#: inc/block-styles.php:307
+msgid "Floating search bar on click"
+msgstr ""
+
+#: inc/block-styles.php:313
+msgid "Bordered block"
+msgstr ""
+
+#: inc/block-styles.php:317
+msgid "No padding for image"
+msgstr ""
+
+#: inc/block-styles.php:321
+msgid "Rounded border box"
+msgstr ""
+
+#: inc/block-styles.php:325
+msgid "Smart scroll carousel"
+msgstr ""
+
+#: inc/block-styles.php:329
+msgid "Box intersection"
+msgstr ""
+
+#: inc/block-styles.php:333
+msgid "Box intersection 2"
+msgstr ""
+
+#: inc/block-styles.php:338
+msgid "No gap"
+msgstr ""
+
+#: inc/block-styles.php:345 inc/block-styles.php:359
+msgid "Show two lines"
+msgstr ""
+
+#: inc/block-styles.php:352 inc/block-styles.php:366
+msgid "Show three lines"
+msgstr ""
+
+#: inc/block-styles.php:373
+msgid "Mega columned menu"
+msgstr ""
+
+#: inc/block-styles.php:380
+msgid "Mega menu Open on left"
+msgstr ""
+
+#: inc/block-styles.php:387
+msgid "Theme search style"
+msgstr ""
+
+#: inc/block-styles.php:394
+msgid "Theme search with round corners"
+msgstr ""
+
+#: inc/block-styles.php:401 inc/block-styles.php:408 inc/block-styles.php:415
+msgid "Hide on mobile and tablets"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega-dark.php:9
+msgid "Dark Footer with text, button, links"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega-four.php:4
+msgid "Mega Footer with 4 columns"
+msgstr ""
+
+#: inc/patterns/footer/footer-mega.php:9
+msgid "Footer with text, button, links"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple-dark.php:4
+msgid "Simple dark footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple-dark.php:11
+#: inc/patterns/footer/footer-simple.php:16
+#: inc/patterns/footer/footer-stacked-dark.php:32
+#: inc/patterns/footer/footer-stacked.php:32
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/footer/footer-simple.php:9
+msgid "Simple footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:9
+#: inc/patterns/footer/footer-stacked.php:9
+msgid "Footer with heading, text, button."
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:14
+msgid "Let’s Do This"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked-dark.php:23
+#: inc/patterns/footer/footer-stacked.php:23
+msgid "Get in Touch"
+msgstr ""
+
+#: inc/patterns/footer/footer-stacked.php:14
+msgid "Let’s Do this"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:9
+msgid "Simple 3 column dark footer"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns-dark.php:20
+#: inc/patterns/footer/footer-three-columns.php:20
+msgid "Terms of Service"
+msgstr ""
+
+#: inc/patterns/footer/footer-three-columns.php:9
+msgid "Simple 3 column white footer"
+msgstr ""
+
+#: inc/patterns/general/general-banner-footer.php:8
+msgid "Banner and counters"
+msgstr ""
+
+#: inc/patterns/general/general-banner-negative-top.php:8
+msgid "Banner with top negative margin"
+msgstr ""
+
+#: inc/patterns/general/general-features.php:8
+msgid "Features with 4 columns"
+msgstr ""
+
+#: inc/patterns/general/general-latest-query.php:8
+msgid "Latest 3 posts with heading"
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:9
+msgid "Podcast episode with media, text."
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:17
+#: inc/patterns/hero/hero-two-columns.php:13
+msgid "Sample Image"
+msgstr ""
+
+#: inc/patterns/general/general-podcast.php:29
+msgid "Sample Podcast Episode"
+msgstr ""
+
+#: inc/patterns/general/general-pricing-three-columns.php:9
+msgid "Pricing table with list, buttons."
+msgstr ""
+
+#: inc/patterns/general/general-qa.php:8
+msgid "QA section with video"
+msgstr ""
+
+#: inc/patterns/general/general-testimonials-boxes.php:9
+msgid "Testimonials with text."
+msgstr ""
+
+#: inc/patterns/general/general-user-feedback.php:8
+msgid "User feedbacks"
+msgstr ""
+
+#: inc/patterns/header/header-button-search.php:4
+#: inc/patterns/header/header-two-menus.php:4
+msgid "Header with center menu, button and search icon"
+msgstr ""
+
+#: inc/patterns/header/header-center.php:4
+msgid "Centered logo header"
+msgstr ""
+
+#: inc/patterns/header/header-dark-button.php:9
+msgid "Dark header with button"
+msgstr ""
+
+#: inc/patterns/header/header-search-icon.php:4
+msgid "Header with center menu and search icon"
+msgstr ""
+
+#: inc/patterns/header/header-simple-dark.php:9
+msgid "Simple dark header"
+msgstr ""
+
+#: inc/patterns/header/header-simple.php:10
+msgid "Simple header"
+msgstr ""
+
+#: inc/patterns/hero/hero-front.php:4
+msgid "Hero section with Video animation"
+msgstr ""
+
+#: inc/patterns/hero/hero-two-columns.php:4
+msgid "Section with media, text, buttons."
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:9
+msgid "404 error content."
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:12
+msgid "Not found, error 404"
+msgstr ""
+
+#: inc/patterns/hidden/hidden-404.php:15
+msgid "Oops, the page you are looking for does not exist or is no longer available. Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+
+#: inc/patterns/page/page-front.php:9
+msgid "Home page Variant"
+msgstr ""
+
+#: inc/patterns/page/query-index.php:4
+msgid "Index page query"
+msgstr ""
+
+#: inc/patterns/parts/parts-related.php:8
+msgid "Related posts"
+msgstr ""
+
+#: inc/patterns/query/query-creative-list.php:10
+msgid "List of posts with creative style"
+msgstr ""
+
+#: inc/patterns/query/query-default.php:9
+msgid "List of posts in one column"
+msgstr ""
+
+#: inc/patterns/query/query-grid-excerpt.php:9
+msgid "Grid of posts with excerpt"
+msgstr ""
+
+#: inc/patterns/query/query-grid.php:9
+msgid "Grid of posts in three columns."
+msgstr ""
+
+#: inc/patterns/query/query-list.php:10
+msgid "List of posts in three columns."
+msgstr ""
+
+#: inc/patterns/query/query-listbig.php:10
+msgid "List with big images"
+msgstr ""
+
+#: inc/patterns/query/query-listgrid.php:10
+msgid "List of 3 grid items"
+msgstr ""
+
+#: inc/patterns/query/query-simple-list.php:10
+msgid "Simple post list"
+msgstr ""
+
+#: inc/patterns/query/query-sticky-column-simple.php:10
+msgid "Block with sticky column unstyled"
+msgstr ""
+
+#: inc/patterns/query/query-sticky-column.php:10
+msgid "Block with sticky column"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:38
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:40
+msgid "User Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "out of"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:51
+#, php-format
+msgid "Rated %s out of"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Write a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:137
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:138
+msgid "Leave a Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:143
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:146
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:152
+#, php-format
+msgid "You must be %s%s%s logged in %s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:168
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:169
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:170
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:173
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:174
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:180
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:187
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
