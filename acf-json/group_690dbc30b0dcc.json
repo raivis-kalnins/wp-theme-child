@@ -43,7 +43,7 @@
                 "id": ""
             },
             "post_type": [
-                "post"
+                "megamenu"
             ],
             "post_status": "",
             "taxonomy": "",
@@ -75,5 +75,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1762768600
+    "modified": 1763051580
 }

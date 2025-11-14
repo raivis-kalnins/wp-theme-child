@@ -18,6 +18,7 @@
             },
             "choices": {
                 "Choose Menu ...": "Choose Menu ...",
+                "WP Header Top Menu": "WP Header Top Menu",
                 "WP Header Menu": "WP Header Menu",
                 "WP Footer Menu": "WP Footer Menu"
             },
@@ -52,5 +53,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1762766930
+    "modified": 1763034012
 }
