@@ -1,8 +1,83 @@
 /* Child Theme Custom Style */
-$brandcolor: #F28C2E;
+:root {
+	// Colours
+	--wp-brand-color: #F28C2E !important;
+}
 
-.wp-site-blocks > footer {
-    background-color: var(--wp-grey-dark-color);
-    --bs-link-hover-color-rgb: #fff;
-	--bs-link-color-rgb: #fff;	
+body {
+
+	.tpl__get-in-touch {
+		background-color: var(--wp-brand-color) !important;
+	}
+
+	a {
+		color: #00000080;
+	}
+
+	.megamenu-modal hr.wp-block-separator.is-style-wide {
+		background-color: #ffffff21 !important;
+		color: #ffffff21 !important;
+	}
+
+	header nav.header-nav .wp-header-menu-container .navbar-nav .menu-item-current>a {
+		color: white !important;
+	}
+
+	.wp-site-blocks > footer {
+		background-color: var(--wp-brand-color);
+		--bs-link-hover-color-rgb: var(--wp-white-color) !important;
+		--bs-link-color-rgb: var(--wp-white-color) !important;
+
+		:where(p,li,span,a,small,.small,em,strong,code,blockquote,figcaption) {
+			color: var(--wp-white-color) !important;
+		}
+
+		.wp-block-wp-soc-follow-block {
+			width: 100%;
+
+			.wp-block-social-links {
+				margin-right: -5px;
+				width: fit-content;
+				float: right;
+
+				.wp-social-link {
+						
+					.wp-block-social-link-anchor,
+					.wp-block-social-link-anchor svg {
+						color: var(--wp-white-color) !important;
+						fill: var(--wp-white-color) !important;
+					}
+				}
+			}
+		}
+
+		.dropdown-item.active {
+			background-color: transparent !important;
+		}
+
+		hr.wp-block-separator.is-style-wide {
+			background-color: #ffffff21 !important;
+   			color: #ffffff21 !important;
+		}
+
+		.foo-copy::after {
+			background-image: url('../../assets/img/svg/wp-heart-white.svg') !important;
+		}
+	}
+
+	.wc-block-mini-cart__badge {
+		background-color: var(--wp-brand-color) !important;
+	}
+
+	#wp-soc-share-wrap .wp-soc-share_item {
+	
+		svg path {
+			fill: var(--wp-brand-color) !important;
+		}
+
+		a:hover svg path{
+			fill: var(--wp-brand-color) !important;
+			opacity: 0.7;
+		}
+	}
 }

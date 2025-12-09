@@ -14,3 +14,9 @@ function child_theme_enqueue_scripts_and_styles() {
 	wp_enqueue_script('wp-script--child', get_stylesheet_directory_uri() . '/dist/' . $manifest_child->$customJS->file, ['jquery'], '', 'all');
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_scripts_and_styles', 2);
+
+/**
+ * Custom Admin Logo
+ */
+function my_login_logo_child() { ?><style type="text/css">#login h1 a,.login h1 a {background: url(<?=get_stylesheet_directory_uri()?>/assets/img/logo-child.png) center / 90% auto no-repeat !important;width:280px;padding:5px}</style><?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo_child', 10 );
