@@ -1,7 +1,7 @@
 /* Child Theme Custom Style */
 :root {
 	// Colours
-	--wp-brand-color: #F28C2E !important;
+	--wp-brand-color: #ff5900 !important;
 }
 
 body {
@@ -58,10 +58,6 @@ body {
 		hr.wp-block-separator.is-style-wide {
 			background-color: #ffffff21 !important;
    			color: #ffffff21 !important;
-		}
-
-		.foo-copy::after {
-			background-image: url('../../assets/img/svg/wp-heart-white.svg') !important;
 		}
 	}
 
