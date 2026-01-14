@@ -10,7 +10,7 @@
     "labels": {
         "name": "Products",
         "singular_name": "Products",
-        "menu_name": "Products",
+        "menu_name": "Produkti",
         "all_items": "All Products",
         "edit_item": "Edit Products",
         "view_item": "View Products",
@@ -56,10 +56,10 @@
     "rest_base": "",
     "rest_namespace": "wp\/v2",
     "rest_controller_class": "WP_REST_Posts_Controller",
-    "menu_position": "",
+    "menu_position": 2,
     "menu_icon": {
         "type": "dashicons",
-        "value": "dashicons-products"
+        "value": "dashicons-car"
     },
     "rename_capabilities": false,
     "singular_capability_name": "post",
@@ -89,5 +89,5 @@
     "delete_with_user": false,
     "register_meta_box_cb": "",
     "enter_title_here": "",
-    "modified": 1762755192
+    "modified": 1766384088
 }
