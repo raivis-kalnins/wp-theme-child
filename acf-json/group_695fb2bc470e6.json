@@ -1,13 +1,13 @@
 {
-    "key": "group_6901f9045e32a",
-    "title": "Category Items",
+    "key": "group_695fb2bc470e6",
+    "title": "Blog",
     "fields": [
         {
-            "key": "field_6901f90400b47",
-            "label": "Category Icon",
-            "name": "category_icon",
+            "key": "field_695fb2bcadc43",
+            "label": "Single Blog Post Intro",
+            "name": "single_blog_post_intro",
             "aria-label": "",
-            "type": "image",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,22 +16,17 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
+            "default_value": "",
             "allow_in_bindings": 0,
-            "preview_size": "medium"
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
-            "key": "field_693988c882279",
-            "label": "Category Bottom Description",
-            "name": "category_bottom_desc",
+            "key": "field_695fb33f47764",
+            "label": "Single Blog Post - More Posts Intro",
+            "name": "single_blog_post_more_posts_intro",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -53,9 +48,9 @@
     "location": [
         [
             {
-                "param": "taxonomy",
+                "param": "post_type",
                 "operator": "==",
-                "value": "product_cat"
+                "value": "post"
             }
         ]
     ],
@@ -69,5 +64,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1768304769
+    "modified": 1767881051
 }
