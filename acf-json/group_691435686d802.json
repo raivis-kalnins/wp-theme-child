@@ -300,9 +300,9 @@
             "label": "Dzinēja tukšgaitas apgriezieni",
             "name": "dzineja_tuksgaitas_apgriezieni",
             "aria-label": "",
-            "type": "number",
+            "type": "text",
             "instructions": "",
-            "required": 0,
+            "required": false,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "10",
@@ -310,11 +310,8 @@
                 "id": ""
             },
             "default_value": "",
-            "min": "",
-            "max": "",
-            "allow_in_bindings": 0,
+            "maxlength": "",
             "placeholder": "",
-            "step": "",
             "prepend": "",
             "append": ""
         },
@@ -367,7 +364,7 @@
             "label": "Ātrumu skaits (gab.)",
             "name": "atrumu_skaits_gab",
             "aria-label": "",
-            "type": "number",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -377,11 +374,9 @@
                 "id": ""
             },
             "default_value": "",
-            "min": "",
-            "max": "",
+            "maxlength": "",
             "allow_in_bindings": 0,
             "placeholder": "",
-            "step": "",
             "prepend": "",
             "append": ""
         },
@@ -477,8 +472,8 @@
         },
         {
             "key": "field_695e0f5d74695",
-            "label": "Lad kataloga Nr",
-            "name": "lad_kataloga_nr",
+            "label": "Order Nr",
+            "name": "order_nr",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -544,6 +539,27 @@
             "mime_types": "",
             "insert": "append",
             "preview_size": "medium"
+        },
+        {
+            "key": "field_696dcd9948c6c",
+            "label": "Product File",
+            "name": "product_file",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 0
         }
     ],
     "location": [
@@ -565,5 +581,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1768352042
+    "modified": 1769362089
 }
