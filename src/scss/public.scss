@@ -28,6 +28,10 @@ body {
 		color: #ffffff21 !important;
 	}
 
+	.wp-block-site-logo>a img {
+		max-width: 70px;
+	}
+
 	header nav.header-nav .wp-header-menu-container .navbar-nav .menu-item-current>a {
 		color: white !important;
 	}
