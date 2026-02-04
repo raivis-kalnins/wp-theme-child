@@ -1,17 +1,26 @@
 /* Child Theme Custom Style */
 :root {
 	// Colours
-	--wp-brand-color: #ff5900 !important;
+	--wp-brand-color: #d21629 !important;
 }
 
 body {
 
 	.tpl__get-in-touch {
 		background-color: var(--wp-brand-color) !important;
+
+		&::before,
+		&::after {
+			content: unset !important;
+		}
 	}
 
 	a {
-		color: #00000080;
+		color: rgba(0,0,0,0.8);
+
+		&:hover {
+			color: var(--wp-brand-color);
+		}
 	}
 
 	.megamenu-modal hr.wp-block-separator.is-style-wide {
@@ -21,6 +30,10 @@ body {
 
 	header nav.header-nav .wp-header-menu-container .navbar-nav .menu-item-current>a {
 		color: white !important;
+	}
+
+	.accordion .accordion-item .accordion-header .accordion-button[aria-expanded=true], .accordion .accordion-item .accordion-header .accordion-button[aria-expanded=true] strong {
+		color: var(--wp-brand-color) !important;
 	}
 
 	.wp-site-blocks > footer {
@@ -56,13 +69,30 @@ body {
 		}
 
 		hr.wp-block-separator.is-style-wide {
-			background-color: #ffffff21 !important;
-   			color: #ffffff21 !important;
+			background-color: #fff !important;
+   			color: #fff !important;
+		}
+
+		.foo-copy {
+
+			:where(p,li,span,a,small,.small,em,strong,code,blockquote,figcaption),
+			& > a,
+			& {
+				color: #fff !important;
+			}
 		}
 	}
 
+	#wpgs-gallery .wcgs-lightbox .sp_wgs-lightbox,
 	.wc-block-mini-cart__badge {
 		background-color: var(--wp-brand-color) !important;
+	}
+
+	#wpgs-gallery .wcgs-thumb.spswiper-slide-thumb-active.wcgs-thumb img,	
+	#wpgs-gallery .wcgs-thumb.spswiper-slide-thumb-active.wcgs-thumb:hover img,
+	#wpgs-gallery .wcgs-thumb.spswiper-slide:hover img,
+	.scroll-up:hover:after {
+		border-color: var(--wp-brand-color) !important;
 	}
 
 	#wp-soc-share-wrap .wp-soc-share_item {
