@@ -11,7 +11,7 @@ function child_theme_enqueue_scripts_and_styles() {
 	// Enqueue styles	
 	wp_enqueue_style('wp-style--child', get_stylesheet_directory_uri() . '/dist/' . $manifest_child->$customStyles->file, [], '', 'all');	
 	// Enqueue scripts	
-	wp_enqueue_script('wp-script--child', get_stylesheet_directory_uri() . '/dist/' . $manifest_child->$customJS->file, ['jquery'], '', 'all');
+	wp_enqueue_script('wp-script--child', get_stylesheet_directory_uri() . '/dist/' . $manifest_child->$customJS->file);
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_scripts_and_styles', 2);
 
