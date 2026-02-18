@@ -1,7 +1,8 @@
 /* Child Theme Custom Style */
 :root {
 	// Colours
-	--wp-brand-color: #d21629 !important;
+	--wp-brand-color:#d21629 !important;
+	--wp-dark-grey-color:#222222f2 !important;
 }
 
 body {
@@ -41,9 +42,9 @@ body {
 	}
 
 	.wp-site-blocks > footer {
-		background-color: var(--wp-brand-color);
 		--bs-link-hover-color-rgb: var(--wp-white-color) !important;
 		--bs-link-color-rgb: var(--wp-white-color) !important;
+		background-color: var(--wp-dark-grey-color);		
 
 		:where(p,li,span,a,small,.small,em,strong,code,blockquote,figcaption) {
 			color: var(--wp-white-color) !important;
