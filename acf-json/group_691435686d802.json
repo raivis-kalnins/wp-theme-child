@@ -569,6 +569,13 @@
                 "operator": "==",
                 "value": "products"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "used"
+            }
         ]
     ],
     "menu_order": 0,
@@ -581,5 +588,7 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1769362089
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1782077114
 }
