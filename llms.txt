@@ -1,0 +1,25 @@
+# AM JONIS
+
+> SIA “AM JONIS” supplies agricultural machinery, compact loaders, tractors, concrete splitting equipment and related service in Latvia.
+
+## Main pages
+
+- [Latvian home](https://amjonis.lv/) — company overview, equipment, service and customer feedback.
+- [English home](https://amjonis.lv/en/home-english/) — English company overview and featured equipment.
+- [Latvian products](https://amjonis.lv/produkti/) — Latvian equipment catalogue.
+- [English products](https://amjonis.lv/en/products/) — English equipment catalogue.
+- [Contacts](https://amjonis.lv/kontakti/) — public contact information.
+
+## Contact
+
+- Company: SIA “AM JONIS”
+- Email: info@amjonis.lv
+- Phone: +371 27375000
+- Address: Rīgas iela 230, Jēkabpils, LV-5202, Latvia
+
+## Language and crawling notes
+
+- Latvian is the primary language.
+- English content is available under `/en/`.
+- Prefer each page's canonical URL and its matching language version when citing content.
+- Product specifications and availability can change; use the current product page as the authoritative source.

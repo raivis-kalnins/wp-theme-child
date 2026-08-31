@@ -1,0 +1,26 @@
+{
+    "key": "ui_options_page_6937c3611dbec",
+    "title": "WP Options",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "WP Options",
+    "menu_slug": "wp-options",
+    "parent_slug": "none",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": 0,
+    "description": "",
+    "menu_icon": {
+        "type": "dashicons",
+        "value": "dashicons-admin-generic"
+    },
+    "update_button": "Update",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1765262193
+}

@@ -1,0 +1,118 @@
+/* Child Theme Custom Style */
+:root {
+	// Colours
+	--wp-brand-color:#d21629 !important;
+	--wp-dark-grey-color:#222222f2 !important;
+}
+
+body {
+
+	.tpl__get-in-touch {
+		background-color: var(--wp-brand-color) !important;
+
+		&::before,
+		&::after {
+			content: unset !important;
+		}
+	}
+
+	a {
+		color: rgba(0,0,0,0.8);
+
+		&:hover {
+			color: var(--wp-brand-color);
+		}
+	}
+
+	.megamenu-modal hr.wp-block-separator.is-style-wide {
+		background-color: #ffffff21 !important;
+		color: #ffffff21 !important;
+	}
+
+	.wp-block-site-logo>a img {
+		max-width: 110px;
+	}
+
+	header nav.header-nav .wp-header-menu-container .navbar-nav .menu-item-current>a {
+		color: white !important;
+	}
+
+	.accordion .accordion-item .accordion-header .accordion-button[aria-expanded=true], .accordion .accordion-item .accordion-header .accordion-button[aria-expanded=true] strong {
+		color: var(--wp-brand-color) !important;
+	}
+
+	.wp-site-blocks > footer {
+		--bs-link-hover-color-rgb: var(--wp-white-color) !important;
+		--bs-link-color-rgb: var(--wp-white-color) !important;
+		background-color: var(--wp-dark-grey-color);		
+
+		:where(p,li,span,a,small,.small,em,strong,code,blockquote,figcaption) {
+			color: var(--wp-white-color) !important;
+		}
+
+		.wp-block-wp-soc-follow-block {
+			width: 100%;
+
+			.wp-block-social-links {
+				margin-right: -5px;
+				width: fit-content;
+				float: right;
+
+				.wp-social-link {
+						
+					.wp-block-social-link-anchor,
+					.wp-block-social-link-anchor svg {
+						color: var(--wp-white-color) !important;
+						fill: var(--wp-white-color) !important;
+					}
+				}
+			}
+		}
+
+		.dropdown-item.active {
+			background-color: transparent !important;
+		}
+
+		hr.wp-block-separator.is-style-wide {
+			background-color: #fff !important;
+   			color: #fff !important;
+		}
+
+		.foo-copy {
+
+			:where(p,li,span,a,small,.small,em,strong,code,blockquote,figcaption),
+			& > a,
+			& {
+				color: #fff !important;
+			}
+		}
+	}
+
+	#wpgs-gallery .wcgs-lightbox .sp_wgs-lightbox,
+	.wc-block-mini-cart__badge {
+		background-color: var(--wp-brand-color) !important;
+	}
+
+	#wpgs-gallery .wcgs-thumb.spswiper-slide-thumb-active.wcgs-thumb img,	
+	#wpgs-gallery .wcgs-thumb.spswiper-slide-thumb-active.wcgs-thumb:hover img,
+	#wpgs-gallery .wcgs-thumb.spswiper-slide:hover img,
+	.scroll-up:hover:after {
+		border-color: var(--wp-brand-color) !important;
+	}
+
+	#wp-soc-share-wrap .wp-soc-share_item {
+	
+		svg path {
+			fill: var(--wp-brand-color) !important;
+		}
+
+		a:hover svg path{
+			fill: var(--wp-brand-color) !important;
+			opacity: 0.7;
+		}
+	}
+
+	.comp-sectors .card-header .wp-block-image {
+		box-shadow: 1px 2px 30px #26262626;
+	}
+}
